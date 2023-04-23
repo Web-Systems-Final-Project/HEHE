@@ -6,7 +6,7 @@
 	}else{
 		$user_id = '';
 	}
-
+<!--hello pi-->
 	if (isset($_POST['logout'])) {
 		session_destroy();
 		header("location: login.php");
